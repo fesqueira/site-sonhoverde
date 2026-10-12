@@ -12,8 +12,8 @@ export const LOJA = {
   // Enquanto estiver vazio, o Instagram não aparece no site.
   instagram: '',
   googleMaps: 'https://www.google.com/maps/place/Sonho+Verde/data=!4m2!3m1!1s0x9519717140592d6b:0xf238e4e71837a264?hl=pt-BR',
-  // TODO: link do site da Simplifica Tech. Vazio = aparece só o nome, sem link.
-  desenvolvedor: { nome: 'Simplifica Tech', link: '' },
+  // Link vazio = aparece só o nome, sem link.
+  desenvolvedor: { nome: 'Simplifica Tech', link: 'https://simplificatech.pro' },
 };
 
 export const MENU = [
