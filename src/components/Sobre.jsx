@@ -12,7 +12,7 @@ export default function Sobre() {
           <span className="script-tag">Quem sou eu?</span>
           <h2>A pessoa por trás da Sonho Verde</h2>
           <p>
-            Meu nome é <strong>Janice Rodrigues</strong> e há mais de 10 anos trabalho com colchões, vendendo com muito
+            Meu nome é <strong>Janice Rodrigues</strong> e há 14 anos trabalho com colchões, vendendo com muito
             carinho o conforto que seu sono precisa. Comecei com o sonho de ajudar as pessoas a dormirem melhor e, pelo
             caminho, descobri que flores também fazem parte disso — porque bem-estar é sono tranquilo e momentos bonitos
             no dia a dia.

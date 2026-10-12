@@ -7,10 +7,9 @@ export const LOJA = {
   telefone: '(51) 98272-2468',
   email: 'janicesonhoverde@gmail.com',
   endereco: 'Rua Porto Seguro, 951, Canoas - RS',
-  horario: '9h às 17h',
-  // TODO: preencher com o link do perfil (ex.: https://instagram.com/sonhoverde).
-  // Enquanto estiver vazio, o Instagram não aparece no site.
-  instagram: '',
+  horario: 'Segunda a sexta, 9h às 17h',
+  // Link vazio = o Instagram não aparece no site.
+  instagram: 'https://www.instagram.com/sonhoverde_colchoeseflores',
   googleMaps: 'https://www.google.com/maps/place/Sonho+Verde/data=!4m2!3m1!1s0x9519717140592d6b:0xf238e4e71837a264?hl=pt-BR',
   // Link vazio = aparece só o nome, sem link.
   desenvolvedor: { nome: 'Simplifica Tech', link: 'https://simplificatech.pro' },
