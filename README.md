@@ -43,9 +43,20 @@ npm run preview  # serve a pasta dist/ localmente
 - **Modelos de colchão**: `src/data/colchoes.js`
 - **Avaliações**: `src/data/avaliacoes.js`. São uma cópia das avaliações do Google Maps e não atualizam sozinhas.
 
+## Publicação (Hostinger)
+
+A cada push no `main`, o GitHub Actions gera o site e publica o resultado (`dist/`) no branch
+**`hostinger`**, que tem só os arquivos finais. A Hostinger (hPanel → Avançado → Git) está ligada
+a esse branch, com deploy automático por webhook: o site atualiza sozinho cerca de 1 minuto
+depois do push.
+
+A chave do formulário vem do secret `VITE_WEB3FORMS_KEY` do repositório
+(Settings → Secrets and variables → Actions). Sem ele, o site publica normalmente, mas o
+formulário não envia.
+
 ## Configurações pendentes
 
-- Formulário de contato: copiar `.env.example` para `.env` e preencher `VITE_WEB3FORMS_KEY`.
+- Formulário de contato: cadastrar o secret `VITE_WEB3FORMS_KEY` no GitHub (para o site publicado) e, para testar localmente, copiar `.env.example` para `.env`.
 - Instagram: preencher `instagram` em `src/data/site.js`. Enquanto estiver vazio, o Instagram não aparece no site.
 - Link do desenvolvedor no rodapé: preencher `desenvolvedor.link` em `src/data/site.js`.
 
