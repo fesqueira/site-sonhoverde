@@ -46,8 +46,7 @@ npm run preview  # serve a pasta dist/ localmente
 ## Configurações pendentes
 
 - Formulário de contato: copiar `.env.example` para `.env` e preencher `VITE_WEB3FORMS_KEY`.
-- Instagram: preencher `instagram` em `src/data/site.js`. Enquanto estiver vazio, o Instagram não aparece no site.
-- Link do desenvolvedor no rodapé: preencher `desenvolvedor.link` em `src/data/site.js`.
+- Domínio: quando for comprado, adicionar `canonical` e `og:image` em `index.html`.
 
 ## Commits
 
