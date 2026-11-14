@@ -56,9 +56,8 @@ formulário não envia.
 
 ## Configurações pendentes
 
-- Formulário de contato: cadastrar o secret `VITE_WEB3FORMS_KEY` no GitHub (para o site publicado) e, para testar localmente, copiar `.env.example` para `.env`.
-- Instagram: preencher `instagram` em `src/data/site.js`. Enquanto estiver vazio, o Instagram não aparece no site.
-- Link do desenvolvedor no rodapé: preencher `desenvolvedor.link` em `src/data/site.js`.
+- Domínio: quando for comprado, adicionar `canonical` e `og:image` em `index.html`.
+- Formulário de contato: o secret `VITE_WEB3FORMS_KEY` já está cadastrado no GitHub. Para testar localmente, copiar `.env.example` para `.env` e preencher a chave.
 
 ## Commits
 

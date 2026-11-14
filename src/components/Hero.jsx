@@ -2,7 +2,7 @@ import Icon from './Icon';
 import fotoHero from '../assets/img/hero-janice.webp';
 
 const SELOS = [
-  { destaque: '+15 anos', texto: 'de bairro, cuidando de você' },
+  { destaque: '14 anos', texto: 'de bairro, cuidando de você' },
   { destaque: '2 em 1', texto: 'colchões e floricultura' },
   { destaque: '100%', texto: 'atendimento no WhatsApp' },
 ];
