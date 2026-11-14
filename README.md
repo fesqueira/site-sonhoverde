@@ -56,7 +56,6 @@ formulário não envia.
 
 ## Configurações pendentes
 
-- Domínio: quando for comprado, adicionar `canonical` e `og:image` em `index.html`.
 - Formulário de contato: o secret `VITE_WEB3FORMS_KEY` já está cadastrado no GitHub. Para testar localmente, copiar `.env.example` para `.env` e preencher a chave.
 
 ## Commits
