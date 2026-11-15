@@ -1,0 +1,15 @@
+# Hostinger (Apache): cache longo para os arquivos com hash do Vite, nenhum cache para o HTML.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|png|jpe?g|webp|svg|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
